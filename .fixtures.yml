@@ -1,0 +1,4 @@
+---
+fixtures:
+    symlinks:
+        piwik: '#{source_dir}'

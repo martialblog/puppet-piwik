@@ -8,7 +8,21 @@
   "project_page": "https://github.com/velaluqa/puppet-piwik/",
   "issues_url": "https://github.com/velaluqa/puppet-piwik/issues",
   "description": "Module to install Piwik using puppet.",
-  "dependencies": [
-
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
   ]
 }
