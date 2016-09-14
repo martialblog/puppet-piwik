@@ -23,9 +23,13 @@
 # Class:: piwik
 #
 class piwik (
+
+  $url  = 'http://builds.piwik.org/latest.zip',
   $path = '/srv/piwik',
   $user = 'www-data',
+
 ) {
+
   if !defined(Package['unzip']) {
     package { 'unzip': }
   }
@@ -38,7 +42,7 @@ class piwik (
   exec { 'piwik-download':
     path    => '/bin:/usr/bin',
     creates => "${path}/index.php",
-    command => "bash -c 'cd /tmp; wget http://builds.piwik.org/latest.zip'",
+    command => "bash -c 'cd /tmp; wget ${url}'",
     require => File[$path],
     user    => $user,
   }
@@ -71,4 +75,5 @@ class piwik (
     force   => true,
     require => Exec['piwik-copy'],
   }
-} # Class:: piwik
+
+}
