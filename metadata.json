@@ -1,7 +1,7 @@
 {
   "name": "martialblog-piwik",
-  "version": "1.0.1",
-  "author": "Arthur Leonard Andersen",
+  "version": "1.1.0",
+  "author": "Markus Opolka",
   "summary": "Puppet Piwik Module",
   "license": "GPL-3.0",
   "source": "https://github.com/velaluqa/puppet-piwik",
