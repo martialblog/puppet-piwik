@@ -1,12 +1,12 @@
 {
   "name": "martialblog-piwik",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Markus Opolka",
   "summary": "Puppet Piwik Module",
   "license": "GPL-3.0",
-  "source": "https://github.com/velaluqa/puppet-piwik",
-  "project_page": "https://github.com/velaluqa/puppet-piwik/",
-  "issues_url": "https://github.com/velaluqa/puppet-piwik/issues",
+  "source": "https://github.com/martialblog/puppet-piwik",
+  "project_page": "https://github.com/martialblog/puppet-piwik/",
+  "issues_url": "https://github.com/martialblog/puppet-piwik/issues",
   "description": "Module to install Piwik using puppet.",
   "dependencies": [],
   "operatingsystem_support": [
